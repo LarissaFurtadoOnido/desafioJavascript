@@ -4,10 +4,11 @@ dados em uma tabela e, ao clicar em um botão, permita a atualização das infor
 através de um formulário.
 */
 
-const form = document.querySelector("#form")
+const btn = document.querySelector("#modificar")
 
-form.addEventListener("click", function(evento){
+btn.addEventListener("click", function(evento){
     evento.preventDefault()
+    
     const popup = document.querySelector("dialog")
     popup.showModal()
 })
