@@ -5,10 +5,14 @@ através de um formulário.
 */
 
 const btn = document.querySelector("#modificar")
+const atualizar = document.querySelector("#atualizar")
 
 btn.addEventListener("click", function(evento){
     evento.preventDefault()
-    
+
     const popup = document.querySelector("dialog")
     popup.showModal()
 })
+
+
+
