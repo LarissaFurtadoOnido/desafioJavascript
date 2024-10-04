@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" async></script>
+    <script src="script.js" defer></script>
     <title>Exemplo de Pessoa</title>
 </head>
 <body>
@@ -17,17 +17,16 @@
           <th>Cidade</th>
         </tr>
       </thead>
-      <tbody id="novo">
-        <tr>
-          <td>Larissa</td>
-          <td>23</td>
-          <td>Barbacena</td>
+      <tbody id="antigo">
+        <tr data-id="1">
+          <td id="nome">Larissa</td>
+          <td id="idade">23</td>
+          <td id="cidade">Barbacena</td>
         </tr>
-        <tr>
-          <td>Rosilene</td>
-          <td>62</td>
-          <td>Tiradentes</td>
-          
+        <tr data-id="2">
+          <td id="nome">Rosilene</td>
+          <td id="idade">62</td>
+          <td id="cidade">Tiradentes</td>
         </tr>
 
         
@@ -49,15 +48,14 @@
             </thead>
             <tbody id="novo">
               <tr>
-                <td id="nome"><input type="text" id="nomeNovo"></td>
-                <td id="idade">23</td>
-                <td id="cidade">Barbacena</td>
+                <td><input type="text" id="nomeNovo"></td>
+                <td><input type="text" id="idadeNovo"></td>
+                <td><input type="text" id="cidadeNovo"></td>
               </tr>
               <tr>
-                <td>Rosilene</td>
-                <td>62</td>
-                <td>Tiradentes</td>
-                
+                <td><input type="text" id="nomeNovo"></td>
+                <td><input type="text" id="idadeNovo"></td>
+                <td><input type="text" id="cidadeNovo"></td>
               </tr>
       
               

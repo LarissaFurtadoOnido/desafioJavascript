@@ -30,7 +30,7 @@ td:last-of-type {
 
 dialog {
   padding: 20px;
-  width: 300px;
+  width: 600px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
